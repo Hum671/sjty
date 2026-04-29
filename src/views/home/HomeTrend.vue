@@ -79,7 +79,6 @@ watch(
     if (!value.symbol || !oldValue.symbol) {
       return
     }
-
     marketStore.subKLineData(
       value.symbol,
       options[optionIndex.value].key,

@@ -12,16 +12,6 @@ const isMarketShow = computed(() => {
 })
 
 const tabs = [
-  //   {
-  //     name: 'h5.register.myOptions',
-  //     key: 'MyOption',
-  //     component: Optional,
-  //   },
-  {
-    name: 'h5.selectBit.digital_currency',
-    key: 'DigitalCurrency',
-    component: SecondContract,
-  },
   {
     name: 'h5.market.huangjin',
     key: 'Commodities',
@@ -33,7 +23,7 @@ const tabs = [
     component: SecondContract,
   },
   {
-    name: 'h5.market.jijin',
+    name: 'h5.market.forex',
     key: 'Forex',
     component: SecondContract,
   },

@@ -23,9 +23,7 @@ export default defineConfig({
     port: 5170,
     proxy: {
       '^/api': {
-        // target: 'https://api.airswap.it.com', // 测试地址
-        // target: 'http://api.gxbcoin.com', // 测试地址
-        target: 'http://api.derivmark.com', // 测试地址
+        target: 'http://api.sjmg36.com', // 测试地址
         changeOrigin: true,
       },
     },
