@@ -89,6 +89,7 @@ function handleClickItem(data) {
           <img :src="getIconImage(item.name)" alt="" />
           <span class="name">{{ item.name }}</span>
           <span v-if="item.subName" class="sub-name">{{ `/${item.subName}` }}</span>
+          <span class="t-name">{{ $t(`B_${item.symbol}`) }}</span>
         </div>
 
         <template v-if="props.isMarketShow">
@@ -126,6 +127,7 @@ function handleClickItem(data) {
             <img :src="getIconImage(item.name)" alt="" />
             <span class="name">{{ item.name }}</span>
             <span v-if="item.subName" class="sub-name">{{ `/${item.subName}` }}</span>
+            <span class="t-name">{{ $t(`B_${item.symbol}`) }}</span>
           </div>
 
           <template v-if="props.isMarketShow">
@@ -229,6 +231,10 @@ function handleClickItem(data) {
           color: var(--cb-fColor);
           font-weight: 400;
           font-size: 14px;
+          margin-bottom: 3px;
+        }
+        .t-name {
+          font-size: 12px;
         }
         .sub-name {
           font-size: 12px;
