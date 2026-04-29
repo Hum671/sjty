@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #g-loading {
+        --neon-blue: #00f3ff;
+        --neon-pink: #ff00c8;
+        --neon-purple: #9600ff;
+        --neon-yellow: #ffe600;
+        --neon-green: #00ff88;
+        --dark-bg: #0a0a16;
+        --accent: #6e00ff;
+        --primary: #0062ff;
+        --secondary: #00b3ff;
+        --highlight: #00e1ff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        height: 100dvh;
+        height: -webkit-fill-available;
+        height: calc(var(--vh, 1vh) * 100);
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--dark-bg);
+      }
+      #g-loading .loading-container {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #g-loading .hexagon {
+        position: absolute;
+        width: 100px;
+        height: 57.74px;
+        background-color: transparent;
+        border: 1px solid var(--accent);
+        box-shadow: 0 0 8px rgba(110, 0, 255, 0.4);
+        transform: rotate(30deg);
+        opacity: 0.3;
+        animation: rotate-hex 10s linear infinite;
+      }
+
+      #g-loading .loading-ring {
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        box-shadow: 0 0 10px rgba(0, 98, 255, 0.4);
+      }
+
+      #g-loading .ring-1 {
+        width: 280px;
+        height: 280px;
+        border-top: 2px solid var(--primary);
+        border-bottom: 2px solid var(--secondary);
+        animation: spin 3s linear infinite;
+      }
+
+      #g-loading .ring-2 {
+        width: 220px;
+        height: 220px;
+        border-left: 2px solid var(--accent);
+        border-right: 2px solid var(--highlight);
+        animation: spin 4s linear infinite reverse;
+      }
+
+      #g-loading .ring-3 {
+        width: 160px;
+        height: 160px;
+        border-top: 2px solid var(--highlight);
+        border-bottom: 2px solid var(--primary);
+        animation: spin 2.5s linear infinite;
+      }
+
+      #g-loading .orb-container {
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #g-loading .orb-container-1 {
+        width: 280px;
+        height: 280px;
+        animation: orbit 8s linear infinite;
+      }
+      #g-loading .orb-container-2 {
+        width: 220px;
+        height: 220px;
+        animation: orbit 6s linear infinite reverse;
+      }
+      #g-loading .orb-container-3 {
+        width: 160px;
+        height: 160px;
+        animation: orbit 4s linear infinite;
+      }
+      #g-loading .web3-text {
+        position: absolute;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+        text-shadow:
+          0 0 10px var(--primary),
+          0 0 15px var(--primary);
+        animation: pulse 2s infinite alternate;
+        z-index: 10;
+      }
+      #g-loading .loading-text {
+        position: absolute;
+        bottom: -60px;
+        font-size: 14px;
+        color: var(--highlight);
+        letter-spacing: 2px;
+        animation: blink 1s infinite;
+      }
+      #g-loading .orb {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--dark-bg);
+        box-shadow: 0 0 12px 4px;
+      }
+      #g-loading .orb-1 {
+        top: -10px;
+        box-shadow: 0 0 12px 4px var(--primary);
+      }
+      #g-loading .orb-2 {
+        top: -10px;
+        box-shadow: 0 0 12px 4px var(--secondary);
+      }
+      #g-loading .orb-3 {
+        top: -10px;
+        box-shadow: 0 0 12px 4px var(--accent);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes rotate-hex {
+        0% {
+          transform: rotate(30deg);
+        }
+        100% {
+          transform: rotate(390deg);
+        }
+      }
+
+      @keyframes orbit {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes pulse {
+        0% {
+          opacity: 0.7;
+          transform: scale(0.95);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1.05);
+        }
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="g-loading" style="display: block">
+      <div class="loading-container">
+        <div class="hexagon"></div>
+        <div class="loading-ring ring-1"></div>
+        <div class="loading-ring ring-2"></div>
+        <div class="loading-ring ring-3"></div>
+        <div class="orb-container orb-container-1"><div class="orb orb-1"></div></div>
+        <div class="orb-container orb-container-2"><div class="orb orb-2"></div></div>
+        <div class="orb-container orb-container-3"><div class="orb orb-3"></div></div>
+        <div class="web3-text">WEB3</div>
+        <div class="loading-text">LOADING...</div>
+      </div>
+    </div>
+  </body>
+</html>

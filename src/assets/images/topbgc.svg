@@ -1,0 +1,70 @@
+<svg width='350' height='165' viewBox='0 0 350 165' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <mask id='mask0_601_1215' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0'
+    width='350' height='165'>
+    <rect width='350' height='165' rx='15' fill='#2C2C33' fill-opacity='0.6' />
+  </mask>
+  <g mask='url(#mask0_601_1215)'>
+    <g filter='url(#filter0_f_601_1215)'>
+      <ellipse cx='81.1068' cy='139.15' rx='50.1498' ry='44.55' fill='url(#paint0_linear_601_1215)'
+        fill-opacity='0.9' />
+    </g>
+    <g filter='url(#filter1_f_601_1215)'>
+      <ellipse cx='322.139' cy='25.85' rx='50.1498' ry='44.55' fill='#007BFF' />
+    </g>
+  </g>
+  <g filter='url(#filter2_b_601_1215)'>
+    <rect x='0.5' y='0.5' width='349' height='164' rx='14.5' stroke='url(#paint1_linear_601_1215)' />
+    <rect x='0.5' y='0.5' width='349' height='164' rx='14.5' stroke='url(#paint2_linear_601_1215)'
+      stroke-opacity='0.2' />
+  </g>
+  <path d='M349 47C324.77 36.7009 318.364 26.0688 316 0.999998' stroke='#000000'
+    stroke-opacity='0.3'
+    stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round' />
+  <path d='M325 0.999999C327.266 20.4286 332.021 27.732 349 32' stroke='#000000'
+    stroke-opacity='0.3'
+    stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round' />
+  <path d='M307.013 1C306.539 40.829 319.421 52.5128 349 68' stroke='#000000' stroke-opacity='0.3'
+    stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round' />
+  <path d='M1.01562 118.007C25.2459 128.306 31.6519 138.938 34.0156 164.007' stroke='#000000'
+    stroke-opacity='0.3' stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round' />
+  <path d='M25.0273 164.014C22.761 144.585 18.0068 137.282 1.02734 133.014' stroke='#000000'
+    stroke-opacity='0.3' stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round' />
+  <path d='M42.9874 164C43.4607 124.171 30.5789 112.487 1 97' stroke='#000000' stroke-opacity='0.3'
+    stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round' />
+  <defs>
+    <filter id='filter0_f_601_1215' x='-169.043' y='-105.4' width='500.3' height='489.1'
+      filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+      <feFlood flood-opacity='0' result='BackgroundImageFix' />
+      <feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+      <feGaussianBlur stdDeviation='100' result='effect1_foregroundBlur_601_1215' />
+    </filter>
+    <filter id='filter1_f_601_1215' x='71.9893' y='-218.7' width='500.3' height='489.1'
+      filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+      <feFlood flood-opacity='0' result='BackgroundImageFix' />
+      <feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+      <feGaussianBlur stdDeviation='100' result='effect1_foregroundBlur_601_1215' />
+    </filter>
+    <filter id='filter2_b_601_1215' x='-14' y='-14' width='378' height='193'
+      filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+      <feFlood flood-opacity='0' result='BackgroundImageFix' />
+      <feGaussianBlur in='BackgroundImageFix' stdDeviation='7' />
+      <feComposite in2='SourceAlpha' operator='in' result='effect1_backgroundBlur_601_1215' />
+      <feBlend mode='normal' in='SourceGraphic' in2='effect1_backgroundBlur_601_1215' result='shape' />
+    </filter>
+    <linearGradient id='paint0_linear_601_1215' x1='77.3262' y1='73.0932' x2='129.362' y2='104.998'
+      gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#D3B25B' />
+      <stop offset='1' stop-color='#F0D180' />
+    </linearGradient>
+    <linearGradient id='paint1_linear_601_1215' x1='-22.2054' y1='211.2' x2='57.6197' y2='143.926'
+      gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#000000' stop-opacity='0.4' />
+      <stop offset='1' stop-color='#000000' stop-opacity='0' />
+    </linearGradient>
+    <linearGradient id='paint2_linear_601_1215' x1='366.39' y1='-29.7' x2='283.566' y2='60.0011'
+      gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#000000' />
+      <stop offset='1' stop-color='#000000' stop-opacity='0' />
+    </linearGradient>
+  </defs>
+</svg>

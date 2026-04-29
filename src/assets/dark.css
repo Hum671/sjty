@@ -1,0 +1,66 @@
+:root {
+  --cb-bgc: #0f0f17;
+  --cb-bgc2: #37374f;
+  --cb-bgc3: #1a1b22;
+  --cb-bgc4: #0f0f16;
+  --cb-bgc5: #12141e;
+  --cb-bgc6: #13141d;
+  --cb-bgc7: #1f3a5a;
+  --cb-contantBgc: #1a1b24;
+  --cb-userInfo-bgc: #1a1b24;
+
+  --cb-fColor: #fff;
+  --cb-fColor2: #7691e2;
+  --cb-fColor3: #97a3b6;
+  --cb-fColor4: #7691e2;
+  --cb-fColor5: #ececfd;
+  --cb-fColor6: #9c9c9c;
+  --cb-fColor7: #5e5e7a;
+  --cb-fColor8: #7a7a97;
+  --cb-fColor9: #838488;
+  --cb-fColor10: #000;
+
+  --cb-btnBgc: #6491e9;
+  --cb-btnBgc2: #f5f3fe;
+  --cb-btnBgc3: #1f1f2e;
+  --cb-btnBgc4: #1a1b24;
+
+  --cb-cardBgc: #f5f3fe;
+  --cb-cardBgc2: #f8fafc;
+
+  --cb-borderColor: #212121;
+  --cb-borderColor2: #31323f;
+
+  --cb-loan-bottom-bgc: #000;
+  --cb-loan-bottom-btn-bgc: #1f1f2e;
+  --cb-loan-input-bgc: #1f1f2e;
+  --cb-loan-active-color: #000;
+  --cb-loan-active-bg-color: #f5f3fe;
+
+  --cb-assets-btn-bgc: #37374f;
+
+  --cb-permarket-btn-bgc: #0a0a0f;
+  --cb-permarket-btn-bgc2: #37374f;
+
+  --cb-market-search-content: #37374f;
+
+  --cb-cancelBtnBgc: #f04a5a;
+  --cb-bubblBgc: #7691e2;
+
+  --cb-headerH: 50px;
+
+  --cb-color-theme: #ffd7a6;
+  --cb-color-theme-text-color: #bbbbbb;
+  --cb-color-theme-bg: #4d4d4d;
+  --cb-color-back-bg: #4d4d4d;
+
+  --cb-linear-bg: linear-gradient(1deg, #ffcc8f, #ffedd8);
+  --cb-border-color: hsla(0, 0%, 100%, 0.1);
+  --cb-border-color-1: hsla(0, 0%, 100%, 0.2);
+
+  --cb-login-content-border-color: #757575;
+  --cb-login-content-bgc: rgba(37, 47, 71, 0.3);
+  --cb-login-content-shadow: rgba(118, 145, 226, 0.08);
+  --cb-login-content-btn-bgc1: linear-gradient(90deg, #5c737b, #576088);
+  --cb-login-content-btn-bgc2: linear-gradient(90deg, #576088, #4f587f);
+}

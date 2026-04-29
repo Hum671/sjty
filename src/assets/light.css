@@ -1,0 +1,78 @@
+:root.light {
+  /* Backgrounds */
+  --cb-bgc: #ffffff; /* 主背景白色 */
+  --cb-bgc2: #b9bcc4; /* 二级背景偏淡蓝 */
+  --cb-bgc3: #f8faff; /* 卡片背景等 */
+  --cb-bgc4: #e6f0ff;
+  --cb-bgc5: #dce6ff;
+  --cb-bgc6: #f5f7ff;
+  --cb-bgc7: #cce0ff;
+
+  --cb-contantBgc: #ffffff;
+  --cb-userInfo-bgc: #ffffff;
+  --header-bgc: #e6f0ff;
+
+  /* Text Colors */
+  --cb-fColor: #272727; /* 主文字深灰 */
+  --cb-fColor2: #3b6ee8; /* 高亮蓝色文字 */
+  --cb-fColor3: #4a5a6a; /* 次要文字 */
+  --cb-fColor4: #3b6ee8;
+  --cb-fColor5: #555555;
+  --cb-fColor6: #686767;
+  --cb-fColor7: #999bb0;
+  --cb-fColor8: #8f90a6;
+  --cb-fColor9: #7d7e82;
+  --cb-fColor10: #ffffff;
+
+  /* Buttons */
+  --cb-btnBgc: #3b6ee8; /* 蓝色按钮 */
+  --cb-btnBgc2: #ffffff; /* 白色按钮 */
+  --cb-btnBgc3: #e6f0ff; /* 二级按钮背景 */
+  --cb-btnBgc4: #f5f7ff; /* 浅色按钮背景 */
+
+  /* Cards */
+  --cb-cardBgc: #ffffff;
+  --cb-cardBgc2: #f8faff;
+
+  --cb-loan-bottom-bgc: #fff;
+  --cb-loan-bottom-btn-bgc: #3b6ee8;
+  --cb-loan-input-bgc: #fff;
+  --cb-loan-active-color: #fff;
+  --cb-loan-active-bg-color: #3b6ee8;
+
+  --cb-assets-btn-bgc: #cdcfeb;
+
+  --cb-market-search-content: #e6f0ff;
+
+  --cb-permarket-btn-bgc: #e6f0ff;
+  --cb-permarket-btn-bgc2: #fff;
+
+  /* Borders */
+  --cb-borderColor: #d0d3db;
+  --cb-borderColor2: #c0c4d0;
+
+  /* Special Buttons */
+  --cb-cancelBtnBgc: #f04a5a; /* 保留红色警告按钮 */
+  --cb-bubblBgc: #3b6ee8; /* 蓝色提示气泡 */
+
+  /* Header */
+  --cb-headerH: 50px;
+
+  /* Theme */
+  --cb-color-theme: #3b6ee8;
+  --cb-color-theme-text-color: #333333;
+  --cb-color-theme-bg: #e6f0ff;
+  --cb-color-back-bg: #f0f4ff;
+
+  /* Gradients & Transparents */
+  --cb-linear-bg: linear-gradient(1deg, #cce0ff, #f5f7ff);
+  --cb-border-color: rgba(0, 0, 0, 0.08);
+  --cb-border-color-1: rgba(0, 0%, 0%, 0.15);
+
+  --cb-login-content-border-color: #c8d7f0;
+  --cb-login-content-bgc: rgba(230, 240, 255, 0.6);
+  --cb-login-content-shadow: rgba(118, 145, 226, 0.15);
+
+  --cb-login-content-btn-bgc1: linear-gradient(90deg, #94b5ff, #7ea4ff);
+  --cb-login-content-btn-bgc2: linear-gradient(90deg, #86a8ff, #6f96ff);
+}
