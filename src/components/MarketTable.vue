@@ -227,6 +227,13 @@ function handleClickItem(data) {
       &.body {
         padding: 5px 0;
         border-bottom: 1px solid var(--cb-borderColor2);
+        .flex-box-nm {
+          flex-wrap: wrap;
+          img {
+            position: relative;
+            top: 7px;
+          }
+        }
         .name {
           color: var(--cb-fColor);
           font-weight: 400;
@@ -234,6 +241,9 @@ function handleClickItem(data) {
           margin-bottom: 3px;
         }
         .t-name {
+          display: block;
+          width: 100%;
+          padding-left: 27px;
           font-size: 12px;
         }
         .sub-name {
